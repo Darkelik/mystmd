@@ -16,10 +16,6 @@ import { validateExecute } from '../execute/validators.js';
 import { validateJupytext } from '../jupytext/validators.js';
 import { FRONTMATTER_ALIASES } from '../site/types.js';
 
-/**
- * Frontmatter keys that inherit from project to page when not set on the page.
- * Add new keys here if you want them to propagate from project-level config to pages.
- */
 export const USE_PROJECT_FALLBACK = [
   'authors',
   'reviewers',
@@ -32,8 +28,6 @@ export const USE_PROJECT_FALLBACK = [
   'open_access',
   'license',
   'github',
-  'edit_url',
-  'source_url',
   'binder',
   'source',
   'subject',

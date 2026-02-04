@@ -1,11 +1,5 @@
 # simple-validators
 
-## 1.2.0
-
-### Minor Changes
-
-- 045953f: Inherit edit_url from project config
-
 ## 1.1.1
 
 ### Patch Changes

@@ -30,10 +30,6 @@ export function fillPageFrontmatter(
   );
 }
 
-/**
- * Fill missing values in `base` frontmatter with defaults from `filler`.
- * Used to inherit project-level settings into pages.
- */
 export function fillSiteFrontmatter(
   base: SiteFrontmatter,
   filler: SiteFrontmatter,

@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ba5ae5ee-7028-4d28-80ba-db3797a96472
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/jupyter-book/mystmd
+  plugins:
+    - plugins-test/bonjour.mjs
+    - plugins-test/plugin-widget.mjs
+    - plugins-test/title.mjs
+    - plugins-test/widget.mjs
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   head: |
+  # favicon: favicon.ico
+  # logo: site_logo.png

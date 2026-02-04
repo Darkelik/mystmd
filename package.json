@@ -45,5 +45,8 @@
   "lint-staged": {
     "*.ts": "eslint --config ./.eslintrc.cjs --fix",
     "*.{js,jsx,ts,tsx,md,html,css,json}": "prettier --write"
+  },
+  "dependencies": {
+    "jupyter": "^0.0.0"
   }
 }
