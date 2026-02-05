@@ -47,6 +47,9 @@
     "*.{js,jsx,ts,tsx,md,html,css,json}": "prettier --write"
   },
   "dependencies": {
-    "jupyter": "^0.0.0"
+    "jq": "^1.7.2",
+    "jupyter": "^0.0.0",
+    "myst": "^0.0.1-alpha",
+    "mystmd": "^1.7.1"
   }
 }
