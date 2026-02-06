@@ -84,3 +84,5 @@ export { basicTransformationsPlugin, basicTransformations } from './basic.js';
 export { unnestTransform } from './unnest.js';
 
 export { getFrontmatter } from './frontmatter.js';
+
+export { wordCountTransform, wordCountPlugin } from './word-count.js';
