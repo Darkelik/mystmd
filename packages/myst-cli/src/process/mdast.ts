@@ -31,6 +31,7 @@ import {
   indexIdentifierPlugin,
   buildTocTransform,
   wordCountPlugin,
+  bonjourPlugin,
 } from 'myst-transforms';
 import { unified } from 'unified';
 import { select, selectAll } from 'unist-util-select';
@@ -211,7 +212,8 @@ export async function transformMdast(
     })
     .use(inlineMathSimplificationPlugin, { replaceSymbol: false })
     .use(mathPlugin, { macros: frontmatter.math })
-    .use(wordCountPlugin);
+    .use(wordCountPlugin)
+    .use(bonjourPlugin);
   // Load custom transform plugins
   session.plugins?.transforms.forEach((t) => {
     if (t.stage !== 'document') return;

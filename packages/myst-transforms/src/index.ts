@@ -86,3 +86,5 @@ export { unnestTransform } from './unnest.js';
 export { getFrontmatter } from './frontmatter.js';
 
 export { wordCountTransform, wordCountPlugin } from './word-count.js';
+
+export { bonjourTransform, bonjourPlugin } from './bonjour.js';

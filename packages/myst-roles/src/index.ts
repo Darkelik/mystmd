@@ -18,6 +18,7 @@ import { underlineRole } from './underline.js';
 import { keyboardRole } from './keyboard.js';
 import { rawLatexRole, rawTypstRole } from './raw.js';
 import { wordCountRole } from './word-count.js';
+import { bonjourRole } from './bonjour.js';
 
 export const defaultRoles = [
   spanRole,
@@ -41,6 +42,7 @@ export const defaultRoles = [
   rawLatexRole,
   rawTypstRole,
   wordCountRole,
+  bonjourRole,
 ];
 export { spanRole } from './span.js';
 export { abbreviationRole } from './abbreviation.js';
@@ -61,3 +63,4 @@ export { underlineRole } from './underline.js';
 export { keyboardRole } from './keyboard.js';
 export { rawLatexRole, rawTypstRole } from './raw.js';
 export { wordCountRole } from './word-count.js';
+export { bonjourRole } from './bonjour.js';
