@@ -6,12 +6,7 @@
 
 `mystmd` is a set of open-source, community-driven tools designed for scientific communication, including a powerful authoring framework that supports blogs, online books, scientific papers, reports and journals articles.
 
-Exemple rôle bonjour :
-{bonjour}`Frédéric`.
-
 Cela devrait afficher "bonjour". {abbr}`MyST (Markedly Structured Text)`.
-
-{titre}`Grand titre rouge`
 
 {mywidget}`COUCOU C'EST MOI LE BOUTON`
 

@@ -6,16 +6,10 @@ project:
   # description:
   # keywords: []
   # authors: []
-  github: https://github.com/jupyter-book/mystmd
-  plugins:
-    - plugins-test/bonjour.mjs
-    - plugins-test/plugin-widget.mjs
-    - plugins-test/title.mjs
-    - plugins-test/widget.mjs
+  # github: https://github.com/jupyter-book/mystmd
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
   # options:
-  #   head: |
-  # favicon: favicon.ico
-  # logo: site_logo.png
+    # favicon: favicon.ico
+    # logo: site_logo.png

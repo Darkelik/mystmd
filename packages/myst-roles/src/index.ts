@@ -19,6 +19,7 @@ import { keyboardRole } from './keyboard.js';
 import { rawLatexRole, rawTypstRole } from './raw.js';
 import { wordCountRole } from './word-count.js';
 import { bonjourRole } from './bonjour.js';
+import { titleRole } from './title.js';
 
 export const defaultRoles = [
   spanRole,
@@ -43,6 +44,7 @@ export const defaultRoles = [
   rawTypstRole,
   wordCountRole,
   bonjourRole,
+  titleRole,
 ];
 export { spanRole } from './span.js';
 export { abbreviationRole } from './abbreviation.js';
@@ -64,3 +66,4 @@ export { keyboardRole } from './keyboard.js';
 export { rawLatexRole, rawTypstRole } from './raw.js';
 export { wordCountRole } from './word-count.js';
 export { bonjourRole } from './bonjour.js';
+export { titleRole } from './title.js';

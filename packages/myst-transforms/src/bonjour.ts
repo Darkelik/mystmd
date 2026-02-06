@@ -8,8 +8,8 @@ export function bonjourTransform(tree: GenericParent) {
   bonjourNodes.forEach(node => {
     // Change the node type to text
     node.type = 'text';
-    // Replace the number with the word count
-    node.value = `Bonjour, ${node.value}!`;
+    // Replace the value
+    node.value = `Bonjour ${node.value}!`;
   });
 }
 
