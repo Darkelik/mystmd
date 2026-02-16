@@ -33,6 +33,7 @@ import {
   wordCountPlugin,
   bonjourPlugin,
   titlePlugin,
+  buttonWidgetPlugin,
 } from 'myst-transforms';
 import { unified } from 'unified';
 import { select, selectAll } from 'unist-util-select';
@@ -215,7 +216,8 @@ export async function transformMdast(
     .use(mathPlugin, { macros: frontmatter.math })
     .use(wordCountPlugin)
     .use(bonjourPlugin)
-    .use(titlePlugin);
+    .use(titlePlugin)
+    .use(buttonWidgetPlugin);
   // Load custom transform plugins
   session.plugins?.transforms.forEach((t) => {
     if (t.stage !== 'document') return;

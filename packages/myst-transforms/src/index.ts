@@ -90,3 +90,5 @@ export { wordCountTransform, wordCountPlugin } from './word-count.js';
 export { bonjourTransform, bonjourPlugin } from './bonjour.js';
 
 export { titleTransform, titlePlugin } from './title.js';
+
+export { buttonWidgetTransform, buttonWidgetPlugin } from './buttonWidget.js';

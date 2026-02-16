@@ -1,6 +1,6 @@
 import type { Plugin } from 'unified';
 import { selectAll } from 'unist-util-select';
-import type { GenericParent, GenericNode } from 'myst-common';
+import type { GenericParent } from 'myst-common';
 
 
 export function bonjourTransform(tree: GenericParent) {
